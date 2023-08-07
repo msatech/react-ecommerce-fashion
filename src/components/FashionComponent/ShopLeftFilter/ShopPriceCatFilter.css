@@ -1,0 +1,119 @@
+.shoppricecatfilter{
+    width: 100%;
+    border: var(--light-border);
+    padding: 25px;
+
+    margin-top: 20px;
+}
+
+.shoppricecatfilter .filter__category__title{
+    position: relative;
+    border-bottom: 1px solid #e2e9e1;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.shoppricecatfilter .filters__category{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filters__category .price__range__title{
+    margin: 10px 0px;
+    font-family: var(--primaryfont);
+    color: var(--dark);
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.filters__category .price__range__title .price__ranges{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.filters__variation__filter .variation__title{
+    color: var(--secondary);
+    font-size: 16px;
+    font-weight: 600 !important;
+    font-family: var(--primaryfont);
+}
+
+
+
+.filters__variation__filter .variation__values{
+    display: flex;
+    flex-direction: column;
+}
+
+.filters__variation__filter .variation__values .variation__value{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--primaryfont);
+    color: var(--secondary);
+}
+
+.filters__category .filters__button button{
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* Slider Css for MUI */
+.MuiSlider-thumbColorPrimary.MuiSlider-thumbSizeMedium.MuiSlider-thumb{
+    background-color: var(--primary);
+}
+
+.css-187mznn-MuiSlider-root{
+    color: var(--primary) !important;
+}
+
+
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked{
+    color: var(--primary) !important; 
+}
+
+
+
+@media screen and (max-width: 740px) {
+    .filters__category .filters__button button{
+        padding: 15px 30px;
+        width: 100%;
+        
+        font-size: 18px;
+    
+    }
+
+    .shoppricecatfilter{
+    width: 100%;
+    border: var(--light-border);
+    padding: 20px;
+
+    margin-top: 0px;
+}
+    
+}

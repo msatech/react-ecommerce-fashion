@@ -1,0 +1,175 @@
+
+/* services Carousel */
+.centerslider{
+    margin-right: 30px;
+    width: 100% !important;
+    margin-bottom: 60px;
+}
+
+
+.centerslider .item img{
+    min-height: 500px;
+    max-height: 500px;
+    width: 100%;
+    border-radius: 8px;
+    
+    
+}
+
+.owl-stage-outer{
+    max-height: 500px;
+}
+
+
+
+.centerslider .owl-nav{
+    display: none !important;
+}
+
+.centerslider .owl-dots{
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    
+    
+}
+.centerslider .owl-dots .owl-dot>span{
+    background-color: var(--white) !important;
+    height: 15px !important;
+    width: 15px !important;
+    margin-left: 2px !important;
+    
+    
+}
+
+
+.centerslider .owl-dots .active>span{
+    background-color: var(--secondary) !important;
+    height: 15px !important;
+    width: 30px !important;
+    
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .centerslider .item img{
+        height: 300px !important;
+        width: 100%;
+        border-radius: 16px;
+        
+        
+    }
+
+    .centerslider .item img{
+        min-height: 300px;
+        max-height: 300px;
+        width: 100%;
+        border-radius: 0px !important;
+        
+        
+    }
+    
+    .owl-stage-outer{
+        max-height: 500px;
+    }
+
+    .centerslider{
+       padding: 0px 10px;
+    }
+    
+.centerslider .owl-dots{
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+    
+    
+}
+
+.centerslider .owl-dots .owl-dot>span{
+    background-color: var(--white) !important;
+    height: 10px !important;
+    width: 10px !important;
+    margin-left: 2px !important;
+    
+    
+}
+
+
+.centerslider .owl-dots .active>span{
+    background-color: var(--secondary) !important;
+    height: 10px !important;
+    width: 25px !important;
+    
+    
+}
+	
+    
+}
+
+
+
+
+@media screen and (max-width: 740px) {
+    .centerslider .item img{
+        height: 250px;
+        width: 100%;
+        border-radius: 16px;
+        
+        
+    }
+
+    .centerslider .item img{
+        min-height: 230px;
+        max-height: 230px;
+        width: 100%;
+        border-radius: 0px !important;
+        
+        
+    }
+    
+    .owl-stage-outer{
+        max-height: 500px;
+    }
+
+    .centerslider{
+       padding: 0px 10px;
+    }
+    
+.centerslider .owl-dots{
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+    
+    
+}
+
+.centerslider .owl-dots .owl-dot>span{
+    background-color: var(--white) !important;
+    height: 10px !important;
+    width: 10px !important;
+    margin-left: 2px !important;
+    
+    
+}
+
+
+.centerslider .owl-dots .active>span{
+    background-color: var(--secondary) !important;
+    height: 10px !important;
+    width: 25px !important;
+    
+    
+}
+	
+    
+}
+
+
+
+
+
+
